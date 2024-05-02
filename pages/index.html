@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/color.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/animation.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
 
 </head>
 <body data-bs-theme="dark">
@@ -45,18 +47,18 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item px-4">
+            <li class="nav-item px-4 cl-effect-1">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item px-4">
+            <li class="nav-item px-4 cl-effect-1">
             <a class="nav-link" href="#">About</a>
             </li>
 
-            <li class="nav-item px-4">
+            <li class="nav-item px-4 cl-effect-1">
             <a class="nav-link" href="#">Projects</a>
             </li>
 
-            <li class="nav-item px-4">
+            <li class="nav-item px-4 cl-effect-1">
             <a class="nav-link" href="#">Contact</a>
             </li>
             
@@ -89,23 +91,47 @@
     </section>
 
     <section data-aos="fade-up" class="showcase align-items-center text-center justify-content-end mt-5">
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
+        <div class="title">
+            <h2>Selected Projects</h2>
+            <h1>Showcase</h1>
+        </div>
+
+        <div class="projects-item" data-aos="fade-up">
+            <div class="divider"></div>
+            <div class="d-flex justify-content-between">
+                <div class="img-container">
+                    <img src="../assets/img/project-card.png" alt="">
+                </div>
+                <div class="content ms-5 text-start">
+                    <div class="content-top">
+                        <h4 class="mt-1">GRAPHIC DESIGN (PRINTS) [24/02/2021]</h2>
+                        <h3 class="mt-2">Loyalty Cards</h1>
+                    </div>
+                    <div class="content-bottom">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="projects-item" data-aos="fade-up">
+            <div class="divider"></div>
+            <div class="d-flex justify-content-between">
+                <div class="img-container">
+                    <img src="../assets/img/project-card.png" alt="">
+                </div>
+                <div class="content ms-5 text-start">
+                    <div class="content-top">
+                        <h4 class="mt-1">GRAPHIC DESIGN (PRINTS) [24/02/2021]</h2>
+                        <h3 class="mt-2">Loyalty Cards</h1>
+                    </div>
+                    <div class="content-bottom">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
 
@@ -140,7 +166,7 @@
         });
 
         AOS.init({
-            duration: 1000,
+            duration: 2000,
             mirror: true,
         });
     </script>
