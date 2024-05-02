@@ -89,8 +89,8 @@
     }
 
     canvas {
-        margin-left: 80vh;
-        height: 80vh;
+        margin-left: 75vh;
+        height: 75vh;
     }
     
     .hero-bg {
@@ -154,7 +154,7 @@
         display: block;
         position: absolute;
         width: 100vw;
-        height: 100vh;
+        height: 75vh;
         overflow: hidden;
         top: 0;
         z-index: 4;
