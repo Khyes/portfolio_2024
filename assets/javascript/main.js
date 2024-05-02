@@ -3,7 +3,7 @@ function toggleDarkMode() {
     const body = document.body;
 
     checkbox.addEventListener('change', function() {
-        var theme = checkbox.checked ? 'dark' : 'light';
+        var theme = checkbox.checked ? 'light' : 'dark';
         body.setAttribute('data-bs-theme', theme);
     });
 }

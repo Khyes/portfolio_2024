@@ -191,9 +191,9 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ddd;
+    background-color: #15b590;
     border-radius: 20px;
-    box-shadow: inset 0 0 0 2px #ccc;
+    box-shadow: inset 0 0 0 2px #1b7d66;
     transition: background-color 0.3s ease-in-out;
   }
   
@@ -223,17 +223,17 @@ canvas {
   
   .toggle-switch input[type="checkbox"]:checked + .toggle-switch-handle {
     transform: translateX(45px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 0 3px #29E8BB;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 0 3px #ddd;
   }
   
   .toggle-switch input[type="checkbox"]:checked + .toggle-switch-background {
-    background-color: #29E8BB;
-    box-shadow: inset 0 0 0 2px #148177;
+    background-color: #ddd;
+    box-shadow: inset 0 0 0 2px #ccc;
   }
   
   .toggle-switch input[type="checkbox"]:checked + .toggle-switch:before {
     content: "On";
-    color: #148177;
+    color: #ccc;
     right: -15px;
   }
   
