@@ -1,3 +1,8 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
 img {
     border-radius: 50%;
 }
@@ -32,14 +37,22 @@ img {
     flex-grow: 0;
 }
 
-.hero {
+.hero-bg {
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
 }
 
 canvas {
     /* /* margin-top: -9rem; */
-    margin-left: -11rem; 
+    margin-left: 0rem; 
+    margin-bottom: -0.5rem;
 }
+
+*:not(.hero-bg) {
+    z-index: 5;
+  }
+  
 
 
 
