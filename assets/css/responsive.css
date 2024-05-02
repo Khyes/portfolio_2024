@@ -90,7 +90,7 @@
 
     canvas {
         margin-left: 80vh;
-        height: 90vh;
+        height: 80vh;
     }
     
     .hero-bg {
@@ -148,5 +148,15 @@
         height: 1px;
         background-color: var(--bs-body-color);
         margin: 3rem 0 3rem 0;
+    }
+
+    .mobile-scroll {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        top: 0;
+        z-index: 999;
     }
 }

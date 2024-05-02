@@ -131,3 +131,7 @@ canvas {
     background-color: var(--bs-body-color);
     margin: 3rem 0 3rem 0;
 }
+
+.mobile-scroll {
+    display: none;
+}
