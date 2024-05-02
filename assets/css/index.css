@@ -30,23 +30,22 @@ h2 {
 
 /* BACKGROUND ANIMATION */
 
+
 .hero-bg {
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    z-index: 2;
 }
 
 canvas {
     /* margin-top: -9rem; */
-    margin-left: 1rem; 
+    margin-left: 25vh; 
     margin-bottom: -0.5rem;
-    width:110%;
+    /* width:110vw; */
+    height: 100vh;
 }
 
-
-.hero-bg {
-    z-index: 2;
-}
 
 /* SCROLL ANIMATION */
 

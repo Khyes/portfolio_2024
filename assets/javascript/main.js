@@ -10,3 +10,12 @@ function toggleDarkMode() {
 
 toggleDarkMode();
 
+$(window).scroll(function() {
+    if ($(window).width() < 500 && $(this).scrollTop() > 500) {
+        $('canvas, .scroll-wrapper').fadeOut();
+    } else {
+        $('canvas, .scroll-wrapper').fadeIn();
+    }
+});
+
+
