@@ -36,6 +36,8 @@ h2 {
     position: fixed;
     bottom: 0;
     z-index: 2;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
 }
 
 canvas {
@@ -63,6 +65,7 @@ canvas {
     text-align:center;
     transform: rotate(90deg);
     margin-bottom: 45px;
+    
 }
 
 .mouse {

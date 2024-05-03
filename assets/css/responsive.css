@@ -40,6 +40,15 @@
     canvas {
         margin-left: 60vh;
     }
+    .mobile-scroll {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 75vh;
+        overflow: hidden;
+        top: 0;
+        z-index: 4;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-height: 1024px) {
@@ -150,13 +159,4 @@
         margin: 3rem 0 3rem 0;
     }
 
-    .mobile-scroll {
-        display: block;
-        position: absolute;
-        width: 100vw;
-        height: 75vh;
-        overflow: hidden;
-        top: 0;
-        z-index: 4;
-    }
 }
