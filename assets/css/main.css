@@ -248,3 +248,45 @@ footer .divider {
 .divider.extra {
     margin-top: 9em;
 }
+
+.available {
+    /* background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity)); */
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: var(--border-radius);
+    /* border: 1px solid var(--bs-body-color); */
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 5;
+}
+
+.pulse-green
+{
+	background-color:rgb(var(--av-color-green));
+	width:7px;
+	height:7px;
+	border-radius:50%;
+	animation: pulse-animation-green 3s infinite;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.pulse-red
+{
+	background-color:rgb(var(--av-color-red));
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	animation:pulse-animation-red 3s infinite
+}
+
+.available p {
+    margin: 0;
+}
