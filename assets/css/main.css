@@ -42,6 +42,7 @@ a {
     margin: 1rem 0;
     border-radius: var(--border-radius);
     left: 50%;
+    width: 88%;
     transform: translateX(-50%);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
