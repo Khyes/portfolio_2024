@@ -57,6 +57,10 @@
     .showcase h3 {
         font-size: 30px;
     }
+
+    footer h1 {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-height: 1024px) {

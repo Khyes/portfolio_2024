@@ -221,6 +221,10 @@ footer {
     z-index: 3;
 }
 
+footer ul {
+    padding-left: 0;
+}
+
 
 
 footer button {

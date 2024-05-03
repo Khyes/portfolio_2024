@@ -12,9 +12,9 @@ toggleDarkMode();
 
 $(window).scroll(function() {
     if ($(window).width() < 500 && $(this).scrollTop() > 300) {
-        $('.hero-bg, .scroll-wrapper').fadeOut();
+        $('.hero-bg, .scroll-wrapper').fadeOut(1000);
     } else {
-        $('.hero-bg, .scroll-wrapper').fadeIn();
+        $('.hero-bg, .scroll-wrapper').fadeIn(1000);
     }
 });
 
@@ -37,5 +37,7 @@ $(document).ready(function() {
         }
     });
 });
+
+
 
 
