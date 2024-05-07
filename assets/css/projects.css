@@ -1,0 +1,117 @@
+:root{
+    --bs-bg-opacity: 0.5;
+}
+
+/*--------------------------------------------------------*/
+/*--------------------- PAGE TITLE -----------------------*/
+/*--------------------------------------------------------*/
+
+section {
+    margin-top: 8em;
+    text-align: center;
+    width: 85vw;
+}
+
+/*--------------------------------------------------------*/
+/*-------------------- FILTERING BTN ---------------------*/
+/*--------------------------------------------------------*/
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn-filter {
+    padding: 1rem 2rem;
+}
+
+/*--------------------------------------------------------*/
+/*---------------------- IMG GRID ------------------------*/
+/*--------------------------------------------------------*/
+
+.grid-cus img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+
+
+.grid-cus {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: center; */
+}
+
+.element-item {
+    position: relative;
+    width: 300px;
+}
+
+.element-item .overlay {
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+    border-radius: var(--border-radius);
+    padding: 0.8rem 1rem;
+    position:absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:44px;
+    justify-content: end;
+    transition: height 0.5s ease-in-out;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.element-item .overlay .links {
+    opacity: 0;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 1rem;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.element-item .overlay .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-item .overlay h3 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.element-item .overlay h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.element-item:hover .overlay {
+    height: 50%;
+}
+
+.element-item:hover .overlay .links {
+    opacity: 1;
+}
+
+.btn-icon {
+    padding: 1rem;
+    color: var(--bs-body-color);
+    border: 1px solid;
+    border-color: var(--bs-body-color);
+    border-radius: var(--border-radius);
+}

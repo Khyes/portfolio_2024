@@ -56,6 +56,10 @@
 	transform: translateX(0px);
 }
 
+/*--------------------------------------------------------*/
+/*------------------- PULSE ANIMATION --------------------*/
+/*--------------------------------------------------------*/
+
 @keyframes pulse-animation-green {
 	0%
 	{
@@ -67,7 +71,6 @@
 		box-shadow:0 0 0 8px #0000
 	}
 }
-
 
 @keyframes pulse-animation-red {
 	0%

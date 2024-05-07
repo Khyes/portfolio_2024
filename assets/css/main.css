@@ -31,6 +31,20 @@ a {
     cursor: pointer;
 }
 
+h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    /* font-family: 'Oswald'; */
+    margin-bottom: -10px;
+    font-weight: 100;
+}
+
 /*--------------------------------------------------------*/
 /*------------------------ NAVBAR ------------------------*/
 /*--------------------------------------------------------*/
@@ -225,8 +239,6 @@ footer ul {
     padding-left: 0;
 }
 
-
-
 footer button {
     width: fit-content;
 }
@@ -252,6 +264,10 @@ footer .divider {
 .divider.extra {
     margin-top: 9em;
 }
+
+/*--------------------------------------------------------*/
+/*------------------------ FLOAT -------------------------*/
+/*--------------------------------------------------------*/
 
 .available {
     /* background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity)); */
@@ -293,4 +309,11 @@ footer .divider {
 
 .available p {
     margin: 0;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--bs-body-color);
+    margin: 3rem 0 3rem 0;
 }

@@ -18,26 +18,19 @@ $(window).scroll(function() {
     }
 });
 
+// Configure your options
+const options_f = { 
+    layout: 'sameSize',
+    gutterPixels: 20,
+    gridItemsSelector: '.filtr-item',
+};
 
-$(document).ready(function() {
-    var footerOffset = $('footer').offset().top;
-    var additionalOffset = 350; // Valeur de décalage supplémentaire que vous souhaitez ajouter
+// Adjust the CSS selector to match the container where
+// you set up your image gallery
+const filterizr = new Filterizr('.grid-cus', options_f);
 
-    var newFooterOffset = footerOffset + additionalOffset;
 
-    console.log('Footer Offset:', footerOffset);
-
-    $(window).scroll(function() {
-        var scrollDistance = $(window).scrollTop() + $(window).height();
-
-        if (scrollDistance >= newFooterOffset) {
-            $('canvas').fadeOut(1000);
-        } else {
-            $('canvas').fadeIn(1000);
-        }
-    });
+  
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
 });
-
-
-
-
