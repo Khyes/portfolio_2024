@@ -7,7 +7,7 @@
 /*--------------------------------------------------------*/
 
 section {
-    margin-top: 8em;
+    margin-top: 7em;
     text-align: center;
     width: 85vw;
 }
@@ -25,6 +25,12 @@ section {
 
 .btn-filter {
     padding: 1rem 2rem;
+    transition: all .5s ease-in-out;
+}
+
+.btn-filter:hover {
+    color: var(--bs-primary-color);
+    border-color: var(--bs-primary-color);
 }
 
 /*--------------------------------------------------------*/
@@ -84,6 +90,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .element-item .overlay h3 {
@@ -93,9 +100,9 @@ section {
 }
 
 .element-item .overlay h4 {
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     padding: 0;
     margin: 0;
 }

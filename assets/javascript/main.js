@@ -34,3 +34,51 @@ const filterizr = new Filterizr('.grid-cus', options_f);
 Fancybox.bind("[data-fancybox]", {
   // Your custom options
 });
+
+function copyEmail() {
+    // Get the text content of the email paragraph
+    const emailText = document.getElementById('email').textContent.trim();
+
+    // Create a textarea element to use for copying
+    const textarea = document.createElement('textarea');
+    textarea.value = emailText;
+
+    // Append the textarea to the body
+    document.body.appendChild(textarea);
+
+    // Select the text in the textarea
+    textarea.select();
+
+    // Copy the selected text
+    document.execCommand('copy');
+
+    // Remove the textarea
+    document.body.removeChild(textarea);
+
+    // Optionally, provide some feedback to the user
+    alert('Email copied to clipboard: ' + emailText);
+}
+
+function copyTel() {
+    // Get the text content of the telephone number paragraph
+    const telText = document.getElementById('tel').textContent.trim();
+
+    // Create a textarea element to use for copying
+    const textarea = document.createElement('textarea');
+    textarea.value = telText;
+
+    // Append the textarea to the body
+    document.body.appendChild(textarea);
+
+    // Select the text in the textarea
+    textarea.select();
+
+    // Copy the selected text
+    document.execCommand('copy');
+
+    // Remove the textarea
+    document.body.removeChild(textarea);
+
+    // Optionally, provide some feedback to the user
+    alert('Telephone number copied to clipboard: ' + telText);
+}

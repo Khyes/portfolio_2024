@@ -70,7 +70,6 @@ h2 {
 
 .navbar-brand img {
     width: 50px;
-    border-radius: 50%;
 }
 
 .navbar-collapse {
@@ -168,6 +167,11 @@ h2 {
     transform: translateX(20px);
 }
 
+.breadcrumb-item a {
+    color: var(--bs-primary-color);
+    text-decoration:none;
+}
+
 /*--------------------------------------------------------*/
 /*----------------------- BUTTONS ------------------------*/
 /*--------------------------------------------------------*/
@@ -233,6 +237,7 @@ footer {
     flex-wrap: nowrap;
     align-items: center;
     z-index: 3;
+    width: 85vw;
 }
 
 footer ul {
