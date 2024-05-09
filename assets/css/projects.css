@@ -26,11 +26,14 @@ section {
 .btn-filter {
     padding: 1rem 2rem;
     transition: all .5s ease-in-out;
+    background: var(--bg-item);
 }
 
-.btn-filter:hover {
+
+.btn-filter.active {
     color: var(--bs-primary-color);
     border-color: var(--bs-primary-color);
+    
 }
 
 /*--------------------------------------------------------*/
@@ -45,16 +48,18 @@ section {
 
 
 .grid-cus {
-    width: 100%;
+    /* width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    /* justify-content: center; */
+    gap: 2rem; 
+    justify-content: center; */
 }
 
 .element-item {
-    position: relative;
-    width: 300px;
+    /* position: relative; */
+    max-width: 300px;
+    /* text-align: center; */
+    
 }
 
 .element-item .overlay {
