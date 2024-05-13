@@ -9,7 +9,7 @@ section {
 
 .hero {
     width: 40%;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
 }
@@ -29,10 +29,10 @@ section {
 
 canvas {
     /* margin-top: -9rem; */
-    margin-left: 25vh; 
+    margin-left: 25dvh; 
     margin-bottom: -0.5rem;
     /* width:110vw; */
-    height: 100vh;
+    height: 100dvh;
 }
 
 
@@ -85,7 +85,7 @@ canvas {
 }
 
 .showcase .title {
-    min-height: 10vh;
+    min-height: 10dvh;
 }
 
 .showcase .img-container {

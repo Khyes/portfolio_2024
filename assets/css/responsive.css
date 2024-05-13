@@ -4,7 +4,7 @@
 @media only screen and (min-width: 1120px) and (max-height: 1024px) {
     .hero {
         justify-content: center!important;
-        margin-top: 10vh;
+        margin-top: 10dvh;
     }
 }
 
@@ -42,20 +42,20 @@
 
 @media only screen and (max-width: 1024px) {
     canvas {
-        margin-left: 60vh;
+        margin-left: 60dvh;
     }
     .mobile-scroll {
         display: block;
         position: absolute;
-        width: 100vw;
-        height: 75vh;
+        width: 100dvw;
+        height: 75dvh;
         overflow: hidden;
         top: 0;
         z-index: 4;
     }
 
     .showcase {
-        width: 50vw;
+        width: 50dvw;
     }
 
     section.hero, section.showcase {
@@ -112,7 +112,7 @@
     }
 
     .item-container {
-        width: 60vw;
+        width: 60dvw;
         margin-top: 1rem;
     }
 
@@ -174,8 +174,8 @@
     }
 
     canvas {
-        margin-left: 120vw;
-        height: 150vw;
+        margin-left: 120dvw;
+        height: 150dvw;
     }
     
     .hero-bg {
@@ -184,7 +184,7 @@
     
     .scroll-wrapper {
         position: fixed;
-        bottom: 10vh;
+        bottom: 10dvh;
         
     }
       
@@ -198,7 +198,7 @@
     }
     
     .showcase .title {
-        min-height: 10vh;
+        min-height: 10dvh;
     }
     
     .showcase .img-container {

@@ -1,7 +1,7 @@
 section {
     margin-top: 7em;
     text-align: center;
-    width: 60vw;
+    width: 60dvw;
 }
 
 p {
@@ -92,7 +92,7 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 40vw;
+    width: 40dvw;
 }
 
 .item-container .item {

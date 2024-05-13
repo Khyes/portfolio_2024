@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 body[data-bs-theme=dark] {
@@ -231,13 +231,13 @@ h2 {
 
 
 footer {
-    min-height: 100vh ;
+    min-height: 100dvh ;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     z-index: 3;
-    width: 85vw;
+    width: 85dvw;
 }
 
 footer ul {
