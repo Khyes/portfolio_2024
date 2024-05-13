@@ -99,7 +99,24 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-}
+
+    .project-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sticky {
+        position: relative;
+        top: 0;
+        height: auto;
+    }
+
+    .item-container {
+        width: 60vw;
+        margin-top: 1rem;
+    }
+
+
 
 /*--------------------------------------------------------*/
 /*--------------- PORTRAIT SMALLER TABLET ----------------*/
@@ -253,4 +270,5 @@
         font-size: 40px;
     }
 
+}
 }
